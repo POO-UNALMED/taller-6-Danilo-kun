@@ -82,7 +82,4 @@ public class Vehiculo {
 	Fabricante getFabricante() {
 		return this.fabricante;
 	}
-	public static void main(String[] args) {
-		System.out.println();
-	}
 }

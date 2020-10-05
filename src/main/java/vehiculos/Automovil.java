@@ -10,13 +10,17 @@ public class Automovil extends Vehiculo {
 		automoviles+=1;
 	}
 	public Automovil(String s, String s2, int i, int j, Fabricante f, int k) {
-		Automovil a=new Automovil();
-		a.placa=s;
-		a.nombre=s2;
-		a.precio=i;
-		a.peso=j;
-		a.fabricante=f;
-		a.puestos=k;
+		this.placa=s;
+		this.nombre=s2;
+		this.precio=i;
+		this.peso=j;
+		this.fabricante=f;
+		this.puestos=k;
+		this.puertas=4;
+		this.velocidadMaxima=100;
+		this.traccion="FWD";
+		cantidadVehiculos+=1;
+		automoviles+=1;
 		Pais.paises.add(f.getPais());
 	}
 	void setPuestos(int i) {

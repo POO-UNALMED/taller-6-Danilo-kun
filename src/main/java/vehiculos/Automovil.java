@@ -22,6 +22,7 @@ public class Automovil extends Vehiculo {
 		cantidadVehiculos+=1;
 		automoviles+=1;
 		Pais.paises.add(f.getPais());
+		Fabricante.fabricantes.add(f);
 	}
 	void setPuestos(int i) {
 		this.puestos=i;

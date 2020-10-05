@@ -22,6 +22,7 @@ public class Camion extends Vehiculo {
 		cantidadVehiculos+=1;
 		camiones+=1;
 		Pais.paises.add(f.getPais());
+		Fabricante.fabricantes.add(f);
 	}
 	void setEjes(int i) {
 		this.ejes=i;

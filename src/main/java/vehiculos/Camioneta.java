@@ -21,6 +21,7 @@ public class Camioneta extends Vehiculo {
 		cantidadVehiculos+=1;
 		camionetas+=1;
 		Pais.paises.add(f.getPais());
+		Fabricante.fabricantes.add(f);
 	}
 	void setVolco(boolean i) {
 		this.volco=i;

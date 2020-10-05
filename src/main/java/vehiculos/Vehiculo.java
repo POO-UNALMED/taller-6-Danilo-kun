@@ -21,6 +21,7 @@ public class Vehiculo {
 		this.fabricante=f;
 		cantidadVehiculos+=1;
 		Pais.paises.add(f.getPais());
+		Fabricante.fabricantes.add(f);
 	}
 	public Vehiculo(){
 		
